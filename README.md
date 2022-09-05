@@ -4,12 +4,14 @@ A SolidJS stater template.
 
 ## Feature
 
-- Vite
-
 - TypeScript
+
+- Vite
 
 - Solid Router
 
 - UnoCSS
 
 - ESLint
+
+- Vitest
