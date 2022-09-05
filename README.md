@@ -1,4 +1,4 @@
-# solidify
+# Solidify
 
 A SolidJS stater template.
 
