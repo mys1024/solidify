@@ -4,11 +4,11 @@ A SolidJS stater template.
 
 ## Feature
 
-- TypeScript
+- pnpm
 
 - Vite
 
-- Solid Router
+- TypeScript
 
 - UnoCSS
 
