@@ -13,7 +13,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "up": "taze -I"
   },
   "dependencies": {
     "@solidjs/router": "^0.4.3",
@@ -30,6 +31,7 @@
     "jsdom": "^20.0.0",
     "pnpm": "^7.11.0",
     "solid-testing-library": "^0.3.0",
+    "taze": "^0.8.0",
     "typescript": "^4.8.2",
     "unocss": "^0.45.15",
     "vite": "^3.0.9",
