@@ -1,10 +1,12 @@
-import path from 'path'
 import { defineConfig } from 'vite'
+import ResolveAlias from 'vite-plugin-easy-resolve-alias'
 import solidPlugin from 'vite-plugin-solid'
 import Unocss from 'unocss/vite'
 
 export default defineConfig({
   plugins: [
+    // https://github.com/mys1024/vite-plugin-easy-resolve-alias
+    ResolveAlias({ '~/': 'src/' }),
     // https://github.com/solidjs/vite-plugin-solid
     solidPlugin(),
     // https://github.com/unocss/unocss
@@ -19,11 +21,6 @@ export default defineConfig({
     },
     deps: {
       registerNodeLoader: true,
-    },
-  },
-  resolve: {
-    alias: {
-      '~/': `${path.resolve(__dirname, 'src')}/`,
     },
   },
   server: {

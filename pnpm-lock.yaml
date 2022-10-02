@@ -3,7 +3,6 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config-ts': ^0.26.3
   '@solidjs/router': ^0.4.3
-  '@types/node': ^18.7.15
   '@unocss/preset-attributify': ^0.45.18
   '@unocss/reset': ^0.45.18
   '@vitest/coverage-c8': ^0.23.1
@@ -16,6 +15,7 @@ specifiers:
   typescript: ^4.8.2
   unocss: ^0.45.18
   vite: ^3.1.0
+  vite-plugin-easy-resolve-alias: ^2.0.0
   vite-plugin-solid: ^2.3.0
   vitest: ^0.23.1
 
@@ -26,7 +26,6 @@ dependencies:
 
 devDependencies:
   '@antfu/eslint-config-ts': 0.26.3_yqf6kl63nyoq5megxukfnom5rm
-  '@types/node': 18.7.15
   '@unocss/preset-attributify': 0.45.18
   '@vitest/coverage-c8': 0.23.1_jsdom@20.0.0
   eslint: 8.23.0
@@ -37,6 +36,7 @@ devDependencies:
   typescript: 4.8.2
   unocss: 0.45.18_vite@3.1.0
   vite: 3.1.0
+  vite-plugin-easy-resolve-alias: 2.0.0
   vite-plugin-solid: 2.3.0_solid-js@1.5.4+vite@3.1.0
   vitest: 0.23.1_jsdom@20.0.0
 
@@ -3838,6 +3838,10 @@ packages:
     resolution: {integrity: sha512-grU/QeYP0ChuE5kjU2/k8VtAeODzbernHlue0gTa27+ayGIu3wqYBIPGfP9r5xSqgCgDd4nWrjKXEfxMillByg==}
     dev: true
 
+  /pathe/0.3.8:
+    resolution: {integrity: sha512-c71n61F1skhj/jzZe+fWE9XDoTYjWbUwIKVwFftZ5IOgiX44BVkTkD+/803YDgR50tqeO4eXWxLyVHBLWQAD1g==}
+    dev: true
+
   /pathval/1.1.1:
     resolution: {integrity: sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==}
     dev: true
@@ -4638,6 +4642,12 @@ packages:
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     dependencies:
       builtins: 5.0.1
+    dev: true
+
+  /vite-plugin-easy-resolve-alias/2.0.0:
+    resolution: {integrity: sha512-d+S6gmuYiYsgyNg8/8XehrovYz9Pj0iZP1svw1oP4D7UopIEXr/su8I3Mlgk4kuGTrSzEWFTjzcn2HsaUDhcMg==}
+    dependencies:
+      pathe: 0.3.8
     dev: true
 
   /vite-plugin-solid/2.3.0_solid-js@1.5.4+vite@3.1.0:
