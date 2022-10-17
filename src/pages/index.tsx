@@ -1,5 +1,5 @@
-import Logo from '~/component/Logo'
-import Intro from '~/component/Intro'
+import Logo from '~/components/Logo'
+import Intro from '~/components/Intro'
 
 export default () => (
   <div

@@ -3,11 +3,11 @@ import { lazy } from 'solid-js'
 const routes = [
   {
     path: '/',
-    component: lazy(() => import('~/page/index.js')),
+    component: lazy(() => import('~/pages/index.js')),
   },
   {
     path: '/*all',
-    component: lazy(() => import('~/page/[...all].js')),
+    component: lazy(() => import('~/pages/[...all].js')),
   },
 ]
 
