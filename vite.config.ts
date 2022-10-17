@@ -15,13 +15,6 @@ export default defineConfig({
   // https://github.com/vitest-dev/vitest
   test: {
     include: ['test/**/*.test.ts'],
-    environment: 'jsdom',
-    transformMode: {
-      web: [/.[jt]sx?/],
-    },
-    deps: {
-      registerNodeLoader: true,
-    },
   },
   build: {
     target: 'esnext',
