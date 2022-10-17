@@ -23,9 +23,6 @@ export default defineConfig({
       registerNodeLoader: true,
     },
   },
-  server: {
-    port: 3000,
-  },
   build: {
     target: 'esnext',
   },
