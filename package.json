@@ -2,7 +2,7 @@
   "name": "solidify",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.7.5",
+  "packageManager": "pnpm@8.10.2",
   "description": "A SolidJS stater template.",
   "author": "mys1024",
   "license": "MIT",
@@ -17,20 +17,20 @@
   },
   "dependencies": {
     "@solidjs/router": "^0.8.3",
-    "@unocss/reset": "^0.55.7",
-    "solid-js": "^1.7.11"
+    "@unocss/reset": "^0.57.2",
+    "solid-js": "^1.8.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config-ts": "^0.42.0",
-    "@unocss/preset-attributify": "^0.55.7",
+    "@antfu/eslint-config-ts": "^0.43.1",
+    "@unocss/preset-attributify": "^0.57.2",
     "@vitest/coverage-c8": "^0.33.0",
-    "eslint": "^8.49.0",
+    "eslint": "^8.52.0",
     "eslint-plugin-solid": "^0.13.0",
     "typescript": "^5.2.2",
-    "unocss": "^0.55.7",
-    "vite": "^4.4.9",
+    "unocss": "^0.57.2",
+    "vite": "^4.5.0",
     "vite-plugin-easy-resolve-alias": "^2.0.0",
     "vite-plugin-solid": "^2.7.0",
-    "vitest": "^0.34.4"
+    "vitest": "^0.34.6"
   }
 }
