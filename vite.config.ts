@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import { defineConfig } from 'vite'
 import ResolveAlias from 'vite-plugin-easy-resolve-alias'
 import Solid from 'vite-plugin-solid'
@@ -12,10 +13,6 @@ export default defineConfig({
     // https://github.com/unocss/unocss
     Unocss(),
   ],
-  // https://github.com/vitest-dev/vitest
-  test: {
-    include: ['test/**/*.test.ts'],
-  },
   build: {
     target: 'esnext',
   },
